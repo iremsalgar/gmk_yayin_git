@@ -1,0 +1,45 @@
+git kodları
+
+kendini tanımlama
+
+git config --global user.name "iremsalgar"
+git config --global user.email "email"
+
+cd ~/Desktop
+mkdir yenidosya
+cd yenidosya
+
+git init
+Initialized empty Git repository in /Users/Desktop/yenidosya/.git/
+
+
+
+touch yenimetin.txt
+ls
+yenimetin.txt
+
+
+git add yenimetin.txt
+
+git commit -m "yeni commit"
+
+
+git commit -m ‘’first commit’’
+
+
+git checkout -b ‘’yenibranch’’
+
+git branch                    <====ile kontrol
+
+touch dosya.txt
+git add dosya.txt
+git commit -m "dosya eklendi."
+
+
+git remote add origin https://github.com/iremsalgar/git-kodlari.git
+git push -u origin master
+
+
+git push origin yenibranch
+
+git pull origin master
